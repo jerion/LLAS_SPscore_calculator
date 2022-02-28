@@ -1,0 +1,17 @@
+D:\city\LLAS\LLAS_SPscore2\bin\Debug\net6.0-windows\LLAS_SPscore2.exe
+D:\city\LLAS\LLAS_SPscore2\bin\Debug\net6.0-windows\LLAS_SPscore2.deps.json
+D:\city\LLAS\LLAS_SPscore2\bin\Debug\net6.0-windows\LLAS_SPscore2.runtimeconfig.json
+D:\city\LLAS\LLAS_SPscore2\bin\Debug\net6.0-windows\LLAS_SPscore2.dll
+D:\city\LLAS\LLAS_SPscore2\bin\Debug\net6.0-windows\LLAS_SPscore2.pdb
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.csproj.AssemblyReference.cache
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.Form1.resources
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.csproj.GenerateResource.cache
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.GeneratedMSBuildEditorConfig.editorconfig
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.AssemblyInfoInputs.cache
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.AssemblyInfo.cs
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.csproj.CoreCompileInputs.cache
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.dll
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\refint\LLAS_SPscore2.dll
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.pdb
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\LLAS_SPscore2.genruntimeconfig.cache
+D:\city\LLAS\LLAS_SPscore2\obj\Debug\net6.0-windows\ref\LLAS_SPscore2.dll
