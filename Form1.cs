@@ -6,6 +6,5 @@ namespace LLAS_SPscore2
         {
             InitializeComponent();
         }
-
     }
 }
