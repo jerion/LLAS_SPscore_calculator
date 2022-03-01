@@ -15,6 +15,7 @@ namespace LLAS_SPscore2
         {
             double ans = 0;
             int dot = 1;
+            double minus_sign = 1;
 
             for (int i = 0; i < str.Length; i++)
             {
@@ -53,11 +54,14 @@ namespace LLAS_SPscore2
                         ans = ans / 100;
                         dot = 2;
                         break;
+                    case '-':
+                        minus_sign = -1;
+                        break;
                     default:
                         return 0;
                 }
             }
-            return ans;
+            return ans * minus_sign;
         }  
 
         [STAThread]

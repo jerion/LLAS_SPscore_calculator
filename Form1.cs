@@ -6,5 +6,12 @@ namespace LLAS_SPscore2
         {
             InitializeComponent();
         }
+
+
+
+        private void numAppeal1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

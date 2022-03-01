@@ -32,15 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.TBLiveAppealPlus3 = new System.Windows.Forms.TextBox();
-            this.TBLiveAppealUp3 = new System.Windows.Forms.TextBox();
-            this.TBLiveAppealPlus2 = new System.Windows.Forms.TextBox();
-            this.TBLiveAppealUp2 = new System.Windows.Forms.TextBox();
-            this.TBLiveAppealPlus1 = new System.Windows.Forms.TextBox();
-            this.TBLiveAppealUp1 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -80,6 +72,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.numAppeal2 = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.CBBelt3SameType3 = new System.Windows.Forms.ComboBox();
@@ -120,9 +114,41 @@
             this.numBeltSkillLV1 = new System.Windows.Forms.NumericUpDown();
             this.numBeltLimit1 = new System.Windows.Forms.NumericUpDown();
             this.label20 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.TBLiveAppealUpSpcial3 = new System.Windows.Forms.TextBox();
+            this.TBLiveAppealUpSpcial2 = new System.Windows.Forms.TextBox();
+            this.TBLiveAppealUpSpcial1 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.TBLiveAppealPlus3 = new System.Windows.Forms.TextBox();
+            this.TBLiveAppealUp3 = new System.Windows.Forms.TextBox();
+            this.TBLiveAppealPlus2 = new System.Windows.Forms.TextBox();
+            this.TBLiveAppealUp2 = new System.Windows.Forms.TextBox();
+            this.TBLiveAppealPlus1 = new System.Windows.Forms.TextBox();
+            this.TBLiveAppealUp1 = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numAppeal1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -153,6 +179,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numBelt1Technique1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBeltSkillLV1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBeltLimit1)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // numAppeal1
@@ -178,6 +205,7 @@
             0,
             0,
             0});
+            this.numAppeal1.ValueChanged += new System.EventHandler(this.numAppeal1_ValueChanged);
             // 
             // label2
             // 
@@ -192,24 +220,28 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(776, 426);
+            this.tabControl1.Size = new System.Drawing.Size(704, 426);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label48);
+            this.tabPage1.Controls.Add(this.label47);
+            this.tabPage1.Controls.Add(this.textBox9);
+            this.tabPage1.Controls.Add(this.textBox8);
+            this.tabPage1.Controls.Add(this.textBox7);
+            this.tabPage1.Controls.Add(this.label41);
+            this.tabPage1.Controls.Add(this.textBox6);
+            this.tabPage1.Controls.Add(this.label40);
+            this.tabPage1.Controls.Add(this.label39);
+            this.tabPage1.Controls.Add(this.label38);
+            this.tabPage1.Controls.Add(this.textBox5);
+            this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.textBox13);
-            this.tabPage1.Controls.Add(this.label19);
-            this.tabPage1.Controls.Add(this.label17);
-            this.tabPage1.Controls.Add(this.label18);
-            this.tabPage1.Controls.Add(this.TBLiveAppealPlus3);
-            this.tabPage1.Controls.Add(this.TBLiveAppealUp3);
-            this.tabPage1.Controls.Add(this.TBLiveAppealPlus2);
-            this.tabPage1.Controls.Add(this.TBLiveAppealUp2);
-            this.tabPage1.Controls.Add(this.TBLiveAppealPlus1);
-            this.tabPage1.Controls.Add(this.TBLiveAppealUp1);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.label15);
             this.tabPage1.Controls.Add(this.label14);
@@ -253,84 +285,25 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 28);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(768, 394);
+            this.tabPage1.Size = new System.Drawing.Size(696, 394);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "角色資訊";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // label19
+            // textBox13
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(21, 172);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(69, 19);
-            this.label19.TabIndex = 50;
-            this.label19.Text = "LIVE技能";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(25, 233);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(65, 19);
-            this.label17.TabIndex = 49;
-            this.label17.Text = "表現力+";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(16, 200);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(74, 19);
-            this.label18.TabIndex = 48;
-            this.label18.Text = "表現力UP";
-            // 
-            // TBLiveAppealPlus3
-            // 
-            this.TBLiveAppealPlus3.Location = new System.Drawing.Point(263, 230);
-            this.TBLiveAppealPlus3.Name = "TBLiveAppealPlus3";
-            this.TBLiveAppealPlus3.Size = new System.Drawing.Size(77, 27);
-            this.TBLiveAppealPlus3.TabIndex = 47;
-            // 
-            // TBLiveAppealUp3
-            // 
-            this.TBLiveAppealUp3.Location = new System.Drawing.Point(263, 197);
-            this.TBLiveAppealUp3.Name = "TBLiveAppealUp3";
-            this.TBLiveAppealUp3.Size = new System.Drawing.Size(77, 27);
-            this.TBLiveAppealUp3.TabIndex = 46;
-            // 
-            // TBLiveAppealPlus2
-            // 
-            this.TBLiveAppealPlus2.Location = new System.Drawing.Point(180, 230);
-            this.TBLiveAppealPlus2.Name = "TBLiveAppealPlus2";
-            this.TBLiveAppealPlus2.Size = new System.Drawing.Size(77, 27);
-            this.TBLiveAppealPlus2.TabIndex = 45;
-            // 
-            // TBLiveAppealUp2
-            // 
-            this.TBLiveAppealUp2.Location = new System.Drawing.Point(180, 197);
-            this.TBLiveAppealUp2.Name = "TBLiveAppealUp2";
-            this.TBLiveAppealUp2.Size = new System.Drawing.Size(77, 27);
-            this.TBLiveAppealUp2.TabIndex = 44;
-            // 
-            // TBLiveAppealPlus1
-            // 
-            this.TBLiveAppealPlus1.Location = new System.Drawing.Point(97, 230);
-            this.TBLiveAppealPlus1.Name = "TBLiveAppealPlus1";
-            this.TBLiveAppealPlus1.Size = new System.Drawing.Size(77, 27);
-            this.TBLiveAppealPlus1.TabIndex = 43;
-            // 
-            // TBLiveAppealUp1
-            // 
-            this.TBLiveAppealUp1.Location = new System.Drawing.Point(97, 197);
-            this.TBLiveAppealUp1.Name = "TBLiveAppealUp1";
-            this.TBLiveAppealUp1.Size = new System.Drawing.Size(77, 27);
-            this.TBLiveAppealUp1.TabIndex = 42;
+            this.textBox13.Enabled = false;
+            this.textBox13.Location = new System.Drawing.Point(97, 227);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(77, 27);
+            this.textBox13.TabIndex = 51;
+            this.textBox13.Text = "1000000";
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(400, 129);
+            this.label16.Location = new System.Drawing.Point(372, 129);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(50, 19);
             this.label16.TabIndex = 41;
@@ -339,7 +312,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(385, 96);
+            this.label15.Location = new System.Drawing.Point(357, 96);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(65, 19);
             this.label15.TabIndex = 40;
@@ -357,7 +330,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(411, 5);
+            this.label13.Location = new System.Drawing.Point(383, 5);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(39, 19);
             this.label13.TabIndex = 38;
@@ -365,50 +338,62 @@
             // 
             // TBFriendTechniqueUp3
             // 
-            this.TBFriendTechniqueUp3.Location = new System.Drawing.Point(623, 126);
+            this.TBFriendTechniqueUp3.Location = new System.Drawing.Point(595, 126);
             this.TBFriendTechniqueUp3.Name = "TBFriendTechniqueUp3";
             this.TBFriendTechniqueUp3.Size = new System.Drawing.Size(77, 27);
             this.TBFriendTechniqueUp3.TabIndex = 37;
+            this.TBFriendTechniqueUp3.Text = "0.0";
+            this.TBFriendTechniqueUp3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // TBFriendAppealUp3
             // 
-            this.TBFriendAppealUp3.Location = new System.Drawing.Point(623, 93);
+            this.TBFriendAppealUp3.Location = new System.Drawing.Point(595, 93);
             this.TBFriendAppealUp3.Name = "TBFriendAppealUp3";
             this.TBFriendAppealUp3.Size = new System.Drawing.Size(77, 27);
             this.TBFriendAppealUp3.TabIndex = 36;
+            this.TBFriendAppealUp3.Text = "0.0";
+            this.TBFriendAppealUp3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // TBFriendTechniqueUp2
             // 
-            this.TBFriendTechniqueUp2.Location = new System.Drawing.Point(540, 126);
+            this.TBFriendTechniqueUp2.Location = new System.Drawing.Point(512, 126);
             this.TBFriendTechniqueUp2.Name = "TBFriendTechniqueUp2";
             this.TBFriendTechniqueUp2.Size = new System.Drawing.Size(77, 27);
             this.TBFriendTechniqueUp2.TabIndex = 35;
+            this.TBFriendTechniqueUp2.Text = "0.0";
+            this.TBFriendTechniqueUp2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // TBFriendAppealUp2
             // 
-            this.TBFriendAppealUp2.Location = new System.Drawing.Point(540, 93);
+            this.TBFriendAppealUp2.Location = new System.Drawing.Point(512, 93);
             this.TBFriendAppealUp2.Name = "TBFriendAppealUp2";
             this.TBFriendAppealUp2.Size = new System.Drawing.Size(77, 27);
             this.TBFriendAppealUp2.TabIndex = 34;
+            this.TBFriendAppealUp2.Text = "0.0";
+            this.TBFriendAppealUp2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // TBFriendTechniqueUp1
             // 
-            this.TBFriendTechniqueUp1.Location = new System.Drawing.Point(457, 126);
+            this.TBFriendTechniqueUp1.Location = new System.Drawing.Point(429, 126);
             this.TBFriendTechniqueUp1.Name = "TBFriendTechniqueUp1";
             this.TBFriendTechniqueUp1.Size = new System.Drawing.Size(77, 27);
             this.TBFriendTechniqueUp1.TabIndex = 33;
+            this.TBFriendTechniqueUp1.Text = "0.0";
+            this.TBFriendTechniqueUp1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // TBFriendAppealUp1
             // 
-            this.TBFriendAppealUp1.Location = new System.Drawing.Point(457, 93);
+            this.TBFriendAppealUp1.Location = new System.Drawing.Point(429, 93);
             this.TBFriendAppealUp1.Name = "TBFriendAppealUp1";
             this.TBFriendAppealUp1.Size = new System.Drawing.Size(77, 27);
             this.TBFriendAppealUp1.TabIndex = 32;
+            this.TBFriendAppealUp1.Text = "0.0";
+            this.TBFriendAppealUp1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(411, 62);
+            this.label8.Location = new System.Drawing.Point(383, 62);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(39, 19);
             this.label8.TabIndex = 31;
@@ -417,7 +402,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(483, 5);
+            this.label9.Location = new System.Drawing.Point(455, 5);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(36, 19);
             this.label9.TabIndex = 30;
@@ -425,7 +410,7 @@
             // 
             // numCardTechnique3
             // 
-            this.numCardTechnique3.Location = new System.Drawing.Point(623, 60);
+            this.numCardTechnique3.Location = new System.Drawing.Point(595, 60);
             this.numCardTechnique3.Maximum = new decimal(new int[] {
             50000,
             0,
@@ -449,7 +434,7 @@
             // 
             // numCardTechnique2
             // 
-            this.numCardTechnique2.Location = new System.Drawing.Point(540, 60);
+            this.numCardTechnique2.Location = new System.Drawing.Point(512, 60);
             this.numCardTechnique2.Maximum = new decimal(new int[] {
             50000,
             0,
@@ -473,7 +458,7 @@
             // 
             // numCardTechnique1
             // 
-            this.numCardTechnique1.Location = new System.Drawing.Point(457, 60);
+            this.numCardTechnique1.Location = new System.Drawing.Point(429, 60);
             this.numCardTechnique1.Maximum = new decimal(new int[] {
             50000,
             0,
@@ -498,7 +483,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(650, 5);
+            this.label10.Location = new System.Drawing.Point(622, 5);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(36, 19);
             this.label10.TabIndex = 25;
@@ -506,7 +491,7 @@
             // 
             // numCardAppeal3
             // 
-            this.numCardAppeal3.Location = new System.Drawing.Point(623, 27);
+            this.numCardAppeal3.Location = new System.Drawing.Point(595, 27);
             this.numCardAppeal3.Maximum = new decimal(new int[] {
             50000,
             0,
@@ -531,7 +516,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(566, 5);
+            this.label11.Location = new System.Drawing.Point(538, 5);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(36, 19);
             this.label11.TabIndex = 23;
@@ -539,7 +524,7 @@
             // 
             // numCardAppeal2
             // 
-            this.numCardAppeal2.Location = new System.Drawing.Point(540, 27);
+            this.numCardAppeal2.Location = new System.Drawing.Point(512, 27);
             this.numCardAppeal2.Maximum = new decimal(new int[] {
             50000,
             0,
@@ -564,7 +549,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(396, 29);
+            this.label12.Location = new System.Drawing.Point(368, 29);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(54, 19);
             this.label12.TabIndex = 22;
@@ -572,7 +557,7 @@
             // 
             // numCardAppeal1
             // 
-            this.numCardAppeal1.Location = new System.Drawing.Point(457, 27);
+            this.numCardAppeal1.Location = new System.Drawing.Point(429, 27);
             this.numCardAppeal1.Maximum = new decimal(new int[] {
             50000,
             0,
@@ -635,12 +620,12 @@
             this.CBSameType3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBSameType3.FormattingEnabled = true;
             this.CBSameType3.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBSameType3.Location = new System.Drawing.Point(263, 126);
             this.CBSameType3.Name = "CBSameType3";
             this.CBSameType3.Size = new System.Drawing.Size(77, 27);
@@ -651,12 +636,12 @@
             this.CBSameType2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBSameType2.FormattingEnabled = true;
             this.CBSameType2.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBSameType2.Location = new System.Drawing.Point(180, 126);
             this.CBSameType2.Name = "CBSameType2";
             this.CBSameType2.Size = new System.Drawing.Size(77, 27);
@@ -667,12 +652,12 @@
             this.CBSameType1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBSameType1.FormattingEnabled = true;
             this.CBSameType1.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBSameType1.Location = new System.Drawing.Point(97, 126);
             this.CBSameType1.Name = "CBSameType1";
             this.CBSameType1.Size = new System.Drawing.Size(77, 27);
@@ -881,6 +866,11 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.textBox4);
+            this.tabPage2.Controls.Add(this.textBox3);
+            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.label37);
+            this.tabPage2.Controls.Add(this.label36);
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.label32);
@@ -926,10 +916,28 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 28);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(768, 394);
+            this.tabPage2.Size = new System.Drawing.Size(696, 394);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "飾品:腰帶";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(569, 261);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 29);
+            this.button2.TabIndex = 58;
+            this.button2.Text = "同腰帶1";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(569, 137);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 57;
+            this.button1.Text = "同腰帶1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label32
             // 
@@ -954,12 +962,12 @@
             this.CBBelt3SameType3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt3SameType3.FormattingEnabled = true;
             this.CBBelt3SameType3.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt3SameType3.Location = new System.Drawing.Point(417, 315);
             this.CBBelt3SameType3.Name = "CBBelt3SameType3";
             this.CBBelt3SameType3.Size = new System.Drawing.Size(77, 27);
@@ -970,12 +978,12 @@
             this.CBBelt3SameType2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt3SameType2.FormattingEnabled = true;
             this.CBBelt3SameType2.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt3SameType2.Location = new System.Drawing.Point(334, 315);
             this.CBBelt3SameType2.Name = "CBBelt3SameType2";
             this.CBBelt3SameType2.Size = new System.Drawing.Size(77, 27);
@@ -986,12 +994,12 @@
             this.CBBelt3SameType1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt3SameType1.FormattingEnabled = true;
             this.CBBelt3SameType1.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt3SameType1.Location = new System.Drawing.Point(251, 315);
             this.CBBelt3SameType1.Name = "CBBelt3SameType1";
             this.CBBelt3SameType1.Size = new System.Drawing.Size(77, 27);
@@ -1143,12 +1151,12 @@
             this.CBBelt2SameType3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt2SameType3.FormattingEnabled = true;
             this.CBBelt2SameType3.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt2SameType3.Location = new System.Drawing.Point(417, 191);
             this.CBBelt2SameType3.Name = "CBBelt2SameType3";
             this.CBBelt2SameType3.Size = new System.Drawing.Size(77, 27);
@@ -1159,12 +1167,12 @@
             this.CBBelt2SameType2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt2SameType2.FormattingEnabled = true;
             this.CBBelt2SameType2.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt2SameType2.Location = new System.Drawing.Point(334, 191);
             this.CBBelt2SameType2.Name = "CBBelt2SameType2";
             this.CBBelt2SameType2.Size = new System.Drawing.Size(77, 27);
@@ -1175,12 +1183,12 @@
             this.CBBelt2SameType1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt2SameType1.FormattingEnabled = true;
             this.CBBelt2SameType1.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt2SameType1.Location = new System.Drawing.Point(251, 191);
             this.CBBelt2SameType1.Name = "CBBelt2SameType1";
             this.CBBelt2SameType1.Size = new System.Drawing.Size(77, 27);
@@ -1364,12 +1372,12 @@
             this.CBBelt1SameType3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt1SameType3.FormattingEnabled = true;
             this.CBBelt1SameType3.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt1SameType3.Location = new System.Drawing.Point(417, 76);
             this.CBBelt1SameType3.Name = "CBBelt1SameType3";
             this.CBBelt1SameType3.Size = new System.Drawing.Size(77, 27);
@@ -1380,12 +1388,12 @@
             this.CBBelt1SameType2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt1SameType2.FormattingEnabled = true;
             this.CBBelt1SameType2.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt1SameType2.Location = new System.Drawing.Point(334, 76);
             this.CBBelt1SameType2.Name = "CBBelt1SameType2";
             this.CBBelt1SameType2.Size = new System.Drawing.Size(77, 27);
@@ -1396,12 +1404,12 @@
             this.CBBelt1SameType1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBBelt1SameType1.FormattingEnabled = true;
             this.CBBelt1SameType1.Items.AddRange(new object[] {
-            "1",
-            "1.2",
-            "1.225",
-            "1.275",
-            "1.3",
-            "1.35"});
+            "0",
+            "20",
+            "22.5",
+            "27.5",
+            "30",
+            "35"});
             this.CBBelt1SameType1.Location = new System.Drawing.Point(251, 76);
             this.CBBelt1SameType1.Name = "CBBelt1SameType1";
             this.CBBelt1SameType1.Size = new System.Drawing.Size(77, 27);
@@ -1544,37 +1552,353 @@
             this.label20.TabIndex = 0;
             this.label20.Text = "突破數";
             // 
-            // button1
+            // label36
             // 
-            this.button1.Location = new System.Drawing.Point(577, 137);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 57;
-            this.button1.Text = "同腰帶1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(83, 118);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(54, 19);
+            this.label36.TabIndex = 59;
+            this.label36.Text = "突破數";
             // 
-            // button2
+            // label37
             // 
-            this.button2.Location = new System.Drawing.Point(577, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
-            this.button2.TabIndex = 58;
-            this.button2.Text = "同腰帶1";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(83, 242);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(54, 19);
+            this.label37.TabIndex = 60;
+            this.label37.Text = "突破數";
             // 
-            // textBox13
+            // textBox1
             // 
-            this.textBox13.Location = new System.Drawing.Point(97, 323);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(77, 27);
-            this.textBox13.TabIndex = 51;
-            this.textBox13.Text = "1000000";
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(180, 227);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(77, 27);
+            this.textBox1.TabIndex = 52;
+            this.textBox1.Text = "1000000";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(577, 76);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(77, 27);
+            this.textBox2.TabIndex = 61;
+            this.textBox2.Text = "0.00";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(577, 191);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(77, 27);
+            this.textBox3.TabIndex = 62;
+            this.textBox3.Text = "0.00";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Enabled = false;
+            this.textBox4.Location = new System.Drawing.Point(577, 315);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(77, 27);
+            this.textBox4.TabIndex = 63;
+            this.textBox4.Text = "0.00";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(263, 227);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(77, 27);
+            this.textBox5.TabIndex = 53;
+            this.textBox5.Text = "1000000";
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(105, 205);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(69, 19);
+            this.label38.TabIndex = 54;
+            this.label38.Text = "隊伍顯示";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(218, 205);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(39, 19);
+            this.label39.TabIndex = 55;
+            this.label39.Text = "好友";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(286, 205);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(54, 19);
+            this.label40.TabIndex = 56;
+            this.label40.Text = "同屬性";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Enabled = false;
+            this.textBox6.Location = new System.Drawing.Point(346, 227);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(77, 27);
+            this.textBox6.TabIndex = 57;
+            this.textBox6.Text = "1000000";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(383, 205);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(39, 19);
+            this.label41.TabIndex = 58;
+            this.label41.Text = "腰帶";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label44);
+            this.tabPage3.Controls.Add(this.label45);
+            this.tabPage3.Controls.Add(this.label46);
+            this.tabPage3.Controls.Add(this.label43);
+            this.tabPage3.Controls.Add(this.label42);
+            this.tabPage3.Controls.Add(this.TBLiveAppealUpSpcial3);
+            this.tabPage3.Controls.Add(this.TBLiveAppealUpSpcial2);
+            this.tabPage3.Controls.Add(this.TBLiveAppealUpSpcial1);
+            this.tabPage3.Controls.Add(this.label19);
+            this.tabPage3.Controls.Add(this.label17);
+            this.tabPage3.Controls.Add(this.label18);
+            this.tabPage3.Controls.Add(this.TBLiveAppealPlus3);
+            this.tabPage3.Controls.Add(this.TBLiveAppealUp3);
+            this.tabPage3.Controls.Add(this.TBLiveAppealPlus2);
+            this.tabPage3.Controls.Add(this.TBLiveAppealUp2);
+            this.tabPage3.Controls.Add(this.TBLiveAppealPlus1);
+            this.tabPage3.Controls.Add(this.TBLiveAppealUp1);
+            this.tabPage3.Location = new System.Drawing.Point(4, 28);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(696, 394);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "LIVE技能";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(28, 120);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(49, 19);
+            this.label43.TabIndex = 77;
+            this.label43.Text = "(特殊)";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(12, 101);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(74, 19);
+            this.label42.TabIndex = 76;
+            this.label42.Text = "表現力UP";
+            // 
+            // TBLiveAppealUpSpcial3
+            // 
+            this.TBLiveAppealUpSpcial3.Location = new System.Drawing.Point(258, 106);
+            this.TBLiveAppealUpSpcial3.Name = "TBLiveAppealUpSpcial3";
+            this.TBLiveAppealUpSpcial3.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealUpSpcial3.TabIndex = 75;
+            this.TBLiveAppealUpSpcial3.Text = "0.0";
+            this.TBLiveAppealUpSpcial3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBLiveAppealUpSpcial2
+            // 
+            this.TBLiveAppealUpSpcial2.Location = new System.Drawing.Point(175, 106);
+            this.TBLiveAppealUpSpcial2.Name = "TBLiveAppealUpSpcial2";
+            this.TBLiveAppealUpSpcial2.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealUpSpcial2.TabIndex = 74;
+            this.TBLiveAppealUpSpcial2.Text = "0.0";
+            this.TBLiveAppealUpSpcial2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBLiveAppealUpSpcial1
+            // 
+            this.TBLiveAppealUpSpcial1.Location = new System.Drawing.Point(92, 106);
+            this.TBLiveAppealUpSpcial1.Name = "TBLiveAppealUpSpcial1";
+            this.TBLiveAppealUpSpcial1.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealUpSpcial1.TabIndex = 73;
+            this.TBLiveAppealUpSpcial1.Text = "0.0";
+            this.TBLiveAppealUpSpcial1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(17, 3);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(69, 19);
+            this.label19.TabIndex = 72;
+            this.label19.Text = "LIVE技能";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(20, 61);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(65, 19);
+            this.label17.TabIndex = 71;
+            this.label17.Text = "表現力+";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(11, 28);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(74, 19);
+            this.label18.TabIndex = 70;
+            this.label18.Text = "表現力UP";
+            // 
+            // TBLiveAppealPlus3
+            // 
+            this.TBLiveAppealPlus3.Location = new System.Drawing.Point(258, 58);
+            this.TBLiveAppealPlus3.Name = "TBLiveAppealPlus3";
+            this.TBLiveAppealPlus3.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealPlus3.TabIndex = 69;
+            this.TBLiveAppealPlus3.Text = "0.0";
+            this.TBLiveAppealPlus3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBLiveAppealUp3
+            // 
+            this.TBLiveAppealUp3.Location = new System.Drawing.Point(258, 25);
+            this.TBLiveAppealUp3.Name = "TBLiveAppealUp3";
+            this.TBLiveAppealUp3.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealUp3.TabIndex = 68;
+            this.TBLiveAppealUp3.Text = "0.0";
+            this.TBLiveAppealUp3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBLiveAppealPlus2
+            // 
+            this.TBLiveAppealPlus2.Location = new System.Drawing.Point(175, 58);
+            this.TBLiveAppealPlus2.Name = "TBLiveAppealPlus2";
+            this.TBLiveAppealPlus2.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealPlus2.TabIndex = 67;
+            this.TBLiveAppealPlus2.Text = "0.0";
+            this.TBLiveAppealPlus2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBLiveAppealUp2
+            // 
+            this.TBLiveAppealUp2.Location = new System.Drawing.Point(175, 25);
+            this.TBLiveAppealUp2.Name = "TBLiveAppealUp2";
+            this.TBLiveAppealUp2.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealUp2.TabIndex = 66;
+            this.TBLiveAppealUp2.Text = "0.0";
+            this.TBLiveAppealUp2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBLiveAppealPlus1
+            // 
+            this.TBLiveAppealPlus1.Location = new System.Drawing.Point(92, 58);
+            this.TBLiveAppealPlus1.Name = "TBLiveAppealPlus1";
+            this.TBLiveAppealPlus1.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealPlus1.TabIndex = 65;
+            this.TBLiveAppealPlus1.Text = "0.0";
+            this.TBLiveAppealPlus1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBLiveAppealUp1
+            // 
+            this.TBLiveAppealUp1.Location = new System.Drawing.Point(92, 25);
+            this.TBLiveAppealUp1.Name = "TBLiveAppealUp1";
+            this.TBLiveAppealUp1.Size = new System.Drawing.Size(77, 27);
+            this.TBLiveAppealUp1.TabIndex = 64;
+            this.TBLiveAppealUp1.Text = "0.0";
+            this.TBLiveAppealUp1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(117, 3);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(36, 19);
+            this.label44.TabIndex = 80;
+            this.label44.Text = "SP1";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(284, 3);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(36, 19);
+            this.label45.TabIndex = 79;
+            this.label45.Text = "SP3";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(200, 3);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(36, 19);
+            this.label46.TabIndex = 78;
+            this.label46.Text = "SP2";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Enabled = false;
+            this.textBox7.Location = new System.Drawing.Point(180, 260);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(77, 27);
+            this.textBox7.TabIndex = 59;
+            this.textBox7.Text = "1000000";
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Enabled = false;
+            this.textBox8.Location = new System.Drawing.Point(263, 260);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(77, 27);
+            this.textBox8.TabIndex = 60;
+            this.textBox8.Text = "1000000";
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Enabled = false;
+            this.textBox9.Location = new System.Drawing.Point(345, 260);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(77, 27);
+            this.textBox9.TabIndex = 61;
+            this.textBox9.Text = "1000000";
+            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(30, 230);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(57, 19);
+            this.label47.TabIndex = 62;
+            this.label47.Text = "SP分數";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(21, 263);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(69, 19);
+            this.label48.TabIndex = 63;
+            this.label48.Text = "增幅倍率";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(732, 450);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "LLAS SP分數計算機";
@@ -1610,6 +1934,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numBelt1Technique1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBeltSkillLV1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBeltLimit1)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1654,15 +1980,6 @@
         private NumericUpDown numCardAppeal2;
         private Label label12;
         private NumericUpDown numCardAppeal1;
-        private Label label19;
-        private Label label17;
-        private Label label18;
-        private TextBox TBLiveAppealPlus3;
-        private TextBox TBLiveAppealUp3;
-        private TextBox TBLiveAppealPlus2;
-        private TextBox TBLiveAppealUp2;
-        private TextBox TBLiveAppealPlus1;
-        private TextBox TBLiveAppealUp1;
         private Label label16;
         private Label label15;
         private Label label14;
@@ -1710,5 +2027,40 @@
         private TextBox textBox13;
         private Button button2;
         private Button button1;
+        private TextBox textBox1;
+        private TextBox textBox4;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private Label label37;
+        private Label label36;
+        private Label label41;
+        private TextBox textBox6;
+        private Label label40;
+        private Label label39;
+        private Label label38;
+        private TextBox textBox5;
+        private TextBox textBox8;
+        private TextBox textBox7;
+        private TabPage tabPage3;
+        private Label label44;
+        private Label label45;
+        private Label label46;
+        private Label label43;
+        private Label label42;
+        private TextBox TBLiveAppealUpSpcial3;
+        private TextBox TBLiveAppealUpSpcial2;
+        private TextBox TBLiveAppealUpSpcial1;
+        private Label label19;
+        private Label label17;
+        private Label label18;
+        private TextBox TBLiveAppealPlus3;
+        private TextBox TBLiveAppealUp3;
+        private TextBox TBLiveAppealPlus2;
+        private TextBox TBLiveAppealUp2;
+        private TextBox TBLiveAppealPlus1;
+        private TextBox TBLiveAppealUp1;
+        private Label label48;
+        private Label label47;
+        private TextBox textBox9;
     }
 }
