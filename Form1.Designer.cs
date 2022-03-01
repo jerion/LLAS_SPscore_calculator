@@ -32,18 +32,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.BTNStart = new System.Windows.Forms.Button();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.TBSPScore4 = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TBSPScore3 = new System.Windows.Forms.TextBox();
+            this.TBSPScore2 = new System.Windows.Forms.TextBox();
             this.TBSPScore1 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -149,7 +150,6 @@
             this.TBLiveAppealUp2 = new System.Windows.Forms.TextBox();
             this.TBLiveAppealPlus1 = new System.Windows.Forms.TextBox();
             this.TBLiveAppealUp1 = new System.Windows.Forms.TextBox();
-            this.BTNStart = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numAppeal1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -237,12 +237,12 @@
             this.tabPage1.Controls.Add(this.textBox8);
             this.tabPage1.Controls.Add(this.textBox7);
             this.tabPage1.Controls.Add(this.label41);
-            this.tabPage1.Controls.Add(this.textBox6);
+            this.tabPage1.Controls.Add(this.TBSPScore4);
             this.tabPage1.Controls.Add(this.label40);
             this.tabPage1.Controls.Add(this.label39);
             this.tabPage1.Controls.Add(this.label38);
-            this.tabPage1.Controls.Add(this.textBox5);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.TBSPScore3);
+            this.tabPage1.Controls.Add(this.TBSPScore2);
             this.tabPage1.Controls.Add(this.TBSPScore1);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.label15);
@@ -291,6 +291,16 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "角色資訊";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // BTNStart
+            // 
+            this.BTNStart.Location = new System.Drawing.Point(558, 230);
+            this.BTNStart.Name = "BTNStart";
+            this.BTNStart.Size = new System.Drawing.Size(94, 29);
+            this.BTNStart.TabIndex = 64;
+            this.BTNStart.Text = "開始計算";
+            this.BTNStart.UseVisualStyleBackColor = true;
+            this.BTNStart.Click += new System.EventHandler(this.BTNStart_Click);
             // 
             // label48
             // 
@@ -349,15 +359,15 @@
             this.label41.TabIndex = 58;
             this.label41.Text = "腰帶";
             // 
-            // textBox6
+            // TBSPScore4
             // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(346, 227);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(77, 27);
-            this.textBox6.TabIndex = 57;
-            this.textBox6.Text = "1000000";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBSPScore4.Enabled = false;
+            this.TBSPScore4.Location = new System.Drawing.Point(346, 227);
+            this.TBSPScore4.Name = "TBSPScore4";
+            this.TBSPScore4.Size = new System.Drawing.Size(77, 27);
+            this.TBSPScore4.TabIndex = 57;
+            this.TBSPScore4.Text = "1000000";
+            this.TBSPScore4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label40
             // 
@@ -386,25 +396,25 @@
             this.label38.TabIndex = 54;
             this.label38.Text = "隊伍顯示";
             // 
-            // textBox5
+            // TBSPScore3
             // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(263, 227);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(77, 27);
-            this.textBox5.TabIndex = 53;
-            this.textBox5.Text = "1000000";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBSPScore3.Enabled = false;
+            this.TBSPScore3.Location = new System.Drawing.Point(263, 227);
+            this.TBSPScore3.Name = "TBSPScore3";
+            this.TBSPScore3.Size = new System.Drawing.Size(77, 27);
+            this.TBSPScore3.TabIndex = 53;
+            this.TBSPScore3.Text = "1000000";
+            this.TBSPScore3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox1
+            // TBSPScore2
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(180, 227);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(77, 27);
-            this.textBox1.TabIndex = 52;
-            this.textBox1.Text = "1000000";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBSPScore2.Enabled = false;
+            this.TBSPScore2.Location = new System.Drawing.Point(180, 227);
+            this.TBSPScore2.Name = "TBSPScore2";
+            this.TBSPScore2.Size = new System.Drawing.Size(77, 27);
+            this.TBSPScore2.TabIndex = 52;
+            this.TBSPScore2.Text = "1000000";
+            this.TBSPScore2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // TBSPScore1
             // 
@@ -460,6 +470,7 @@
             this.TBFriendTechniqueUp3.TabIndex = 37;
             this.TBFriendTechniqueUp3.Text = "0.0";
             this.TBFriendTechniqueUp3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBFriendTechniqueUp3.TextChanged += new System.EventHandler(this.TBFriendTechniqueUp3_TextChanged);
             // 
             // TBFriendAppealUp3
             // 
@@ -469,6 +480,7 @@
             this.TBFriendAppealUp3.TabIndex = 36;
             this.TBFriendAppealUp3.Text = "0.0";
             this.TBFriendAppealUp3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBFriendAppealUp3.TextChanged += new System.EventHandler(this.TBFriendAppealUp3_TextChanged);
             // 
             // TBFriendTechniqueUp2
             // 
@@ -478,6 +490,7 @@
             this.TBFriendTechniqueUp2.TabIndex = 35;
             this.TBFriendTechniqueUp2.Text = "0.0";
             this.TBFriendTechniqueUp2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBFriendTechniqueUp2.TextChanged += new System.EventHandler(this.TBFriendTechniqueUp2_TextChanged);
             // 
             // TBFriendAppealUp2
             // 
@@ -487,6 +500,7 @@
             this.TBFriendAppealUp2.TabIndex = 34;
             this.TBFriendAppealUp2.Text = "0.0";
             this.TBFriendAppealUp2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBFriendAppealUp2.TextChanged += new System.EventHandler(this.TBFriendAppealUp2_TextChanged);
             // 
             // TBFriendTechniqueUp1
             // 
@@ -496,6 +510,7 @@
             this.TBFriendTechniqueUp1.TabIndex = 33;
             this.TBFriendTechniqueUp1.Text = "0.0";
             this.TBFriendTechniqueUp1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBFriendTechniqueUp1.TextChanged += new System.EventHandler(this.TBFriendTechniqueUp1_TextChanged);
             // 
             // TBFriendAppealUp1
             // 
@@ -505,6 +520,7 @@
             this.TBFriendAppealUp1.TabIndex = 32;
             this.TBFriendAppealUp1.Text = "0.0";
             this.TBFriendAppealUp1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBFriendAppealUp1.TextChanged += new System.EventHandler(this.TBFriendAppealUp1_TextChanged);
             // 
             // label8
             // 
@@ -547,6 +563,7 @@
             0,
             0,
             0});
+            this.numCardTechnique3.ValueChanged += new System.EventHandler(this.numCardTechnique3_ValueChanged);
             // 
             // numCardTechnique2
             // 
@@ -571,6 +588,7 @@
             0,
             0,
             0});
+            this.numCardTechnique2.ValueChanged += new System.EventHandler(this.numCardTechnique2_ValueChanged);
             // 
             // numCardTechnique1
             // 
@@ -595,6 +613,7 @@
             0,
             0,
             0});
+            this.numCardTechnique1.ValueChanged += new System.EventHandler(this.numCardTechnique1_ValueChanged);
             // 
             // label10
             // 
@@ -628,6 +647,7 @@
             0,
             0,
             0});
+            this.numCardAppeal3.ValueChanged += new System.EventHandler(this.numCardAppeal3_ValueChanged);
             // 
             // label11
             // 
@@ -661,6 +681,7 @@
             0,
             0,
             0});
+            this.numCardAppeal2.ValueChanged += new System.EventHandler(this.numCardAppeal2_ValueChanged);
             // 
             // label12
             // 
@@ -694,6 +715,7 @@
             0,
             0,
             0});
+            this.numCardAppeal1.ValueChanged += new System.EventHandler(this.numCardAppeal1_ValueChanged);
             // 
             // label5
             // 
@@ -1907,16 +1929,6 @@
             this.TBLiveAppealUp1.Text = "0.0";
             this.TBLiveAppealUp1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // BTNStart
-            // 
-            this.BTNStart.Location = new System.Drawing.Point(558, 230);
-            this.BTNStart.Name = "BTNStart";
-            this.BTNStart.Size = new System.Drawing.Size(94, 29);
-            this.BTNStart.TabIndex = 64;
-            this.BTNStart.Text = "開始計算";
-            this.BTNStart.UseVisualStyleBackColor = true;
-            this.BTNStart.Click += new System.EventHandler(this.BTNStart_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -2050,18 +2062,18 @@
         private TextBox TBSPScore1;
         private Button button2;
         private Button button1;
-        private TextBox textBox1;
+        private TextBox TBSPScore2;
         private TextBox textBox4;
         private TextBox textBox3;
         private TextBox textBox2;
         private Label label37;
         private Label label36;
         private Label label41;
-        private TextBox textBox6;
+        private TextBox TBSPScore4;
         private Label label40;
         private Label label39;
         private Label label38;
-        private TextBox textBox5;
+        private TextBox TBSPScore3;
         private TextBox textBox8;
         private TextBox textBox7;
         private TabPage tabPage3;

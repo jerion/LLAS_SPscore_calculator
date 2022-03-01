@@ -6,12 +6,19 @@ namespace LLAS_SPscore2
         ///  The main entry point for the application.
         /// </summary>
 
-        public static double[] appear = new double[3]; // SP角色 表現力
+        public static double[] appeal = new double[3]; // SP角色 表現力
         public static double[] technique = new double[3]; // SP角色 技巧
-        public static double SPscore = 0;// SP分數
+        
         public static double[] SPup = new double[3]; // SP角色 默契能力表 SP張力up
+        
         public static double[] SameType = new double[3]; // SP角色 同屬性效果
         public static int[] IsSameType = new int[3]; // 同屬性偵測+計算數量
+        
+        public static double[] cardAppeal = new double[3]; //SP角色卡片原始表現力
+        public static double[] cardTechnique = new double[3]; //SP角色卡片原始技巧
+
+        public static double[] freindAppealUp = new double[3]; //好友表現力效果
+        public static double[] friendTechniqueUp = new double[3]; //好友技巧效果
         public static double Str2double(string str) // string轉double
         {
             double ans = 0;
