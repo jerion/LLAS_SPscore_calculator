@@ -1169,6 +1169,7 @@
             this.CBBelt3SameType3.Name = "CBBelt3SameType3";
             this.CBBelt3SameType3.Size = new System.Drawing.Size(77, 27);
             this.CBBelt3SameType3.TabIndex = 54;
+            this.CBBelt3SameType3.SelectedIndexChanged += new System.EventHandler(this.CBBelt3SameType3_SelectedIndexChanged);
             // 
             // CBBelt3SameType2
             // 
@@ -1185,6 +1186,7 @@
             this.CBBelt3SameType2.Name = "CBBelt3SameType2";
             this.CBBelt3SameType2.Size = new System.Drawing.Size(77, 27);
             this.CBBelt3SameType2.TabIndex = 53;
+            this.CBBelt3SameType2.SelectedIndexChanged += new System.EventHandler(this.CBBelt3SameType2_SelectedIndexChanged);
             // 
             // CBBelt3SameType1
             // 
@@ -1201,6 +1203,7 @@
             this.CBBelt3SameType1.Name = "CBBelt3SameType1";
             this.CBBelt3SameType1.Size = new System.Drawing.Size(77, 27);
             this.CBBelt3SameType1.TabIndex = 52;
+            this.CBBelt3SameType1.SelectedIndexChanged += new System.EventHandler(this.CBBelt3SameType1_SelectedIndexChanged);
             // 
             // label34
             // 
@@ -1234,6 +1237,7 @@
             0,
             0,
             0});
+            this.numBelt3Technique3.ValueChanged += new System.EventHandler(this.numBelt3Technique3_ValueChanged);
             // 
             // numBelt3Technique2
             // 
@@ -1258,6 +1262,7 @@
             0,
             0,
             0});
+            this.numBelt3Technique2.ValueChanged += new System.EventHandler(this.numBelt3Technique2_ValueChanged);
             // 
             // numBelt3Technique1
             // 
@@ -1282,6 +1287,7 @@
             0,
             0,
             0});
+            this.numBelt3Technique1.ValueChanged += new System.EventHandler(this.numBelt3Technique1_ValueChanged);
             // 
             // label35
             // 
@@ -1305,6 +1311,7 @@
             this.numBeltSkillLV3.TabIndex = 46;
             this.numBeltSkillLV3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numBeltSkillLV3.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.numBeltSkillLV3.ValueChanged += new System.EventHandler(this.numBeltSkillLV3_ValueChanged);
             // 
             // numBeltLimit3
             // 
@@ -1324,6 +1331,7 @@
             0,
             0,
             0});
+            this.numBeltLimit3.ValueChanged += new System.EventHandler(this.numBeltLimit3_ValueChanged);
             // 
             // label28
             // 
@@ -1358,6 +1366,7 @@
             this.CBBelt2SameType3.Name = "CBBelt2SameType3";
             this.CBBelt2SameType3.Size = new System.Drawing.Size(77, 27);
             this.CBBelt2SameType3.TabIndex = 42;
+            this.CBBelt2SameType3.SelectedIndexChanged += new System.EventHandler(this.CBBelt2SameType3_SelectedIndexChanged);
             // 
             // CBBelt2SameType2
             // 
@@ -1374,6 +1383,7 @@
             this.CBBelt2SameType2.Name = "CBBelt2SameType2";
             this.CBBelt2SameType2.Size = new System.Drawing.Size(77, 27);
             this.CBBelt2SameType2.TabIndex = 41;
+            this.CBBelt2SameType2.SelectedIndexChanged += new System.EventHandler(this.CBBelt2SameType2_SelectedIndexChanged);
             // 
             // CBBelt2SameType1
             // 
@@ -1390,6 +1400,7 @@
             this.CBBelt2SameType1.Name = "CBBelt2SameType1";
             this.CBBelt2SameType1.Size = new System.Drawing.Size(77, 27);
             this.CBBelt2SameType1.TabIndex = 40;
+            this.CBBelt2SameType1.SelectedIndexChanged += new System.EventHandler(this.CBBelt2SameType1_SelectedIndexChanged);
             // 
             // label30
             // 
@@ -1423,6 +1434,7 @@
             0,
             0,
             0});
+            this.numBelt2Technique3.ValueChanged += new System.EventHandler(this.numBelt2Technique3_ValueChanged);
             // 
             // numBelt2Technique2
             // 
@@ -1447,6 +1459,7 @@
             0,
             0,
             0});
+            this.numBelt2Technique2.ValueChanged += new System.EventHandler(this.numBelt2Technique2_ValueChanged);
             // 
             // numBelt2Technique1
             // 
@@ -1471,6 +1484,7 @@
             0,
             0,
             0});
+            this.numBelt2Technique1.ValueChanged += new System.EventHandler(this.numBelt2Technique1_ValueChanged);
             // 
             // label31
             // 
@@ -1499,6 +1513,7 @@
             0,
             0,
             0});
+            this.numBeltSkillLV2.ValueChanged += new System.EventHandler(this.numBeltSkillLV2_ValueChanged);
             // 
             // numBeltLimit2
             // 
@@ -1518,6 +1533,7 @@
             0,
             0,
             0});
+            this.numBeltLimit2.ValueChanged += new System.EventHandler(this.numBeltLimit2_ValueChanged);
             // 
             // label27
             // 
@@ -1579,6 +1595,7 @@
             this.CBBelt1SameType3.Name = "CBBelt1SameType3";
             this.CBBelt1SameType3.Size = new System.Drawing.Size(77, 27);
             this.CBBelt1SameType3.TabIndex = 27;
+            this.CBBelt1SameType3.SelectedIndexChanged += new System.EventHandler(this.CBBelt1SameType3_SelectedIndexChanged);
             // 
             // CBBelt1SameType2
             // 
@@ -1595,6 +1612,7 @@
             this.CBBelt1SameType2.Name = "CBBelt1SameType2";
             this.CBBelt1SameType2.Size = new System.Drawing.Size(77, 27);
             this.CBBelt1SameType2.TabIndex = 26;
+            this.CBBelt1SameType2.SelectedIndexChanged += new System.EventHandler(this.CBBelt1SameType2_SelectedIndexChanged);
             // 
             // CBBelt1SameType1
             // 
@@ -1611,6 +1629,7 @@
             this.CBBelt1SameType1.Name = "CBBelt1SameType1";
             this.CBBelt1SameType1.Size = new System.Drawing.Size(77, 27);
             this.CBBelt1SameType1.TabIndex = 25;
+            this.CBBelt1SameType1.SelectedIndexChanged += new System.EventHandler(this.CBBelt1SameType1_SelectedIndexChanged);
             // 
             // label22
             // 
@@ -1644,6 +1663,7 @@
             0,
             0,
             0});
+            this.numBelt1Technique3.ValueChanged += new System.EventHandler(this.numBelt1Technique3_ValueChanged);
             // 
             // numBelt1Technique2
             // 
@@ -1668,6 +1688,7 @@
             0,
             0,
             0});
+            this.numBelt1Technique2.ValueChanged += new System.EventHandler(this.numBelt1Technique2_ValueChanged);
             // 
             // numBelt1Technique1
             // 
@@ -1692,6 +1713,7 @@
             0,
             0,
             0});
+            this.numBelt1Technique1.ValueChanged += new System.EventHandler(this.numBelt1Technique1_ValueChanged);
             // 
             // label21
             // 
@@ -1720,6 +1742,7 @@
             0,
             0,
             0});
+            this.numBeltSkillLV1.ValueChanged += new System.EventHandler(this.numBeltSkillLV1_ValueChanged);
             // 
             // numBeltLimit1
             // 
@@ -1739,6 +1762,7 @@
             0,
             0,
             0});
+            this.numBeltLimit1.ValueChanged += new System.EventHandler(this.numBeltLimit1_ValueChanged);
             // 
             // label20
             // 

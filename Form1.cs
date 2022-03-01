@@ -203,5 +203,127 @@ namespace LLAS_SPscore2
             Program.friendTechniqueUp[2] = Program.Str2double(TBFriendTechniqueUp3.Text) / 100;
         }
         // 好友數值區-結束
+
+        // 飾品:腰帶區-開始
+        private void numBeltLimit1_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltLimit[0] = (double)numBeltLimit1.Value;
+        }
+
+        private void numBeltLimit2_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltLimit[1] = (double)numBeltLimit2.Value;
+        }
+
+        private void numBeltLimit3_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltLimit[2] = (double)numBeltLimit3.Value;
+        }
+
+        private void numBeltSkillLV1_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltSkillLevel[0] = (double)numBeltSkillLV1.Value;
+        }
+
+        private void numBeltSkillLV2_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltSkillLevel[1] = (double)numBeltSkillLV2.Value;
+        }
+
+        private void numBeltSkillLV3_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltSkillLevel[2] = (double)numBeltSkillLV3.Value;
+        }
+
+        private void numBelt1Technique1_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[0] = (double)numBelt1Technique1.Value;
+        }
+
+        private void numBelt1Technique2_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[1] = (double)numBelt1Technique2.Value;
+        }
+
+        private void numBelt1Technique3_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[2] = (double)numBelt1Technique3.Value;
+        }
+
+        private void CBBelt1SameType1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[0] = Program.Str2double(CBBelt1SameType1.Text) / 100 + 1;
+        }
+
+        private void CBBelt1SameType2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[1] = Program.Str2double(CBBelt1SameType2.Text) / 100 + 1;
+        }
+
+        private void CBBelt1SameType3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[2] = Program.Str2double(CBBelt1SameType3.Text) / 100 + 1;
+        }
+
+        private void numBelt2Technique1_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[3] = (double)numBelt2Technique1.Value;
+        }
+
+        private void numBelt2Technique2_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[4] = (double)numBelt2Technique2.Value;
+        }
+
+        private void numBelt2Technique3_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[5] = (double)numBelt2Technique3.Value;
+        }
+
+        private void CBBelt2SameType1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[3] = Program.Str2double(CBBelt2SameType1.Text) / 100 + 1;
+        }
+
+        private void CBBelt2SameType2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[4] = Program.Str2double(CBBelt2SameType2.Text) / 100 + 1;
+        }
+
+        private void CBBelt2SameType3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[5] = Program.Str2double(CBBelt2SameType3.Text) / 100 + 1;
+        }
+
+        private void numBelt3Technique1_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[6] = (double)numBelt3Technique1.Value;
+        }
+
+        private void numBelt3Technique2_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[7] = (double)numBelt3Technique2.Value;
+        }
+
+        private void numBelt3Technique3_ValueChanged(object sender, EventArgs e)
+        {
+            Program.beltTechnique[8] = (double)numBelt3Technique3.Value;
+        }
+
+        private void CBBelt3SameType1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[6] = Program.Str2double(CBBelt3SameType1.Text) / 100 + 1;
+        }
+
+        private void CBBelt3SameType2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[7] = Program.Str2double(CBBelt3SameType2.Text) / 100 + 1;
+        }
+
+        private void CBBelt3SameType3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.beltSameType[8] = Program.Str2double(CBBelt3SameType3.Text) / 100 + 1;
+        }
+        // 飾品:腰帶區-結束
     }
 }
