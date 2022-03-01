@@ -11,6 +11,7 @@ namespace LLAS_SPscore2
         public static double SPscore = 0;// SP分數
         public static double[] SPup = new double[3]; // SP角色 默契能力表 SP張力up
         public static double[] SameType = new double[3]; // SP角色 同屬性效果
+        public static int[] IsSameType = new int[3]; // 同屬性偵測+計算數量
         public static double Str2double(string str) // string轉double
         {
             double ans = 0;
