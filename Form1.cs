@@ -133,11 +133,16 @@ namespace LLAS_SPscore2
             SPscore = Math.Floor((sum_appeal + Math.Floor(sum_technique * 1.2)) * sum_SPup);
             if (SameTypeCount > 0)
             {
-                SPscore = SPscore * (1.05 + 0.05 * SameTypeCount);
+                SPscore = Math.Floor(SPscore * (1.05 + 0.05 * SameTypeCount));
             }
             else { }
-            TBSPScore3.Text = Math.Floor(SPscore).ToString();
+            TBSPScore3.Text = SPscore.ToString();
             // 同屬性計算效果-結束
+
+            // 腰帶區-開始
+            SPscore = Math.Floor(SPscore * (Program.SPBeltEffect.Sum() / 100 + 1));
+            TBSPScore4.Text = SPscore.ToString();
+            // 腰帶區-結束
 
         }
         // 計算區-結束
@@ -252,17 +257,17 @@ namespace LLAS_SPscore2
 
         private void CBBelt1SameType1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[0] = Program.Str2double(CBBelt1SameType1.Text) / 100 + 1;
+            Program.beltSameType[0] = Program.Str2double(CBBelt1SameType1.Text) / 100;
         }
 
         private void CBBelt1SameType2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[1] = Program.Str2double(CBBelt1SameType2.Text) / 100 + 1;
+            Program.beltSameType[1] = Program.Str2double(CBBelt1SameType2.Text) / 100;
         }
 
         private void CBBelt1SameType3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[2] = Program.Str2double(CBBelt1SameType3.Text) / 100 + 1;
+            Program.beltSameType[2] = Program.Str2double(CBBelt1SameType3.Text) / 100;
         }
 
         private void numBelt2Technique1_ValueChanged(object sender, EventArgs e)
@@ -282,17 +287,17 @@ namespace LLAS_SPscore2
 
         private void CBBelt2SameType1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[3] = Program.Str2double(CBBelt2SameType1.Text) / 100 + 1;
+            Program.beltSameType[3] = Program.Str2double(CBBelt2SameType1.Text) / 100;
         }
 
         private void CBBelt2SameType2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[4] = Program.Str2double(CBBelt2SameType2.Text) / 100 + 1;
+            Program.beltSameType[4] = Program.Str2double(CBBelt2SameType2.Text) / 100;
         }
 
         private void CBBelt2SameType3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[5] = Program.Str2double(CBBelt2SameType3.Text) / 100 + 1;
+            Program.beltSameType[5] = Program.Str2double(CBBelt2SameType3.Text) / 100;
         }
 
         private void numBelt3Technique1_ValueChanged(object sender, EventArgs e)
@@ -312,17 +317,54 @@ namespace LLAS_SPscore2
 
         private void CBBelt3SameType1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[6] = Program.Str2double(CBBelt3SameType1.Text) / 100 + 1;
+            Program.beltSameType[6] = Program.Str2double(CBBelt3SameType1.Text) / 100;
         }
 
         private void CBBelt3SameType2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[7] = Program.Str2double(CBBelt3SameType2.Text) / 100 + 1;
+            Program.beltSameType[7] = Program.Str2double(CBBelt3SameType2.Text) / 100;
         }
 
         private void CBBelt3SameType3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Program.beltSameType[8] = Program.Str2double(CBBelt3SameType3.Text) / 100 + 1;
+            Program.beltSameType[8] = Program.Str2double(CBBelt3SameType3.Text) / 100;
+        }
+
+        private void BTNBeltStart_Click(object sender, EventArgs e)
+        {
+            double beltEffect = 0;
+            Program.SPBeltEffect = new double[3];
+            
+            for(int i = 0; i < 3; i++)
+            {
+                if(Program.beltSkillLevel[i] != 0)
+                {
+                    beltEffect = (Program.beltSkillLevel[i] - 1) / (14 + Program.beltLimit[i]);
+                    if (Program.beltLimit[i] < 4)
+                    {
+                        beltEffect = beltEffect * (Program.beltLimit[i] + 1) * 0.5 + 1;
+                        beltEffect = Math.Floor(beltEffect * 100) / 100;
+                        for (int j = 0; j < 3; j++)
+                        {
+                            Program.SPBeltEffect[i] += Math.Floor(beltEffect * Program.beltTechnique[3 * i + j] * (Program.beltSameType[3 * i + j] + 1) / 100) / 100;
+                        }
+                    }
+                    else
+                    {
+                        beltEffect = beltEffect * (Program.beltLimit[i] - 1) + 1;
+                        beltEffect = Math.Floor(beltEffect * 100) / 100;
+                        for (int j = 0; j < 3; j++)
+                        {
+                            Program.SPBeltEffect[i] += Math.Floor(beltEffect * Program.beltTechnique[3 * i + j] * (Program.beltSameType[3 * i + j] + 1) / 100) / 100;
+                        }
+                    }
+                }
+                else { }
+            }
+
+            TBBeltEffect1.Text = Program.SPBeltEffect[0].ToString();
+            TBBeltEffect2.Text = Program.SPBeltEffect[1].ToString();
+            TBBeltEffect3.Text = Program.SPBeltEffect[2].ToString();
         }
         // 飾品:腰帶區-結束
     }

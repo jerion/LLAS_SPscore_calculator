@@ -85,9 +85,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.numAppeal2 = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.BTNBeltStart = new System.Windows.Forms.Button();
+            this.TBBeltEffect3 = new System.Windows.Forms.TextBox();
+            this.TBBeltEffect2 = new System.Windows.Forms.TextBox();
+            this.TBBeltEffect1 = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -1015,9 +1016,10 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.textBox4);
-            this.tabPage2.Controls.Add(this.textBox3);
-            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.BTNBeltStart);
+            this.tabPage2.Controls.Add(this.TBBeltEffect3);
+            this.tabPage2.Controls.Add(this.TBBeltEffect2);
+            this.tabPage2.Controls.Add(this.TBBeltEffect1);
             this.tabPage2.Controls.Add(this.label37);
             this.tabPage2.Controls.Add(this.label36);
             this.tabPage2.Controls.Add(this.button2);
@@ -1070,35 +1072,45 @@
             this.tabPage2.Text = "飾品:腰帶";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // BTNBeltStart
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(577, 315);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(77, 27);
-            this.textBox4.TabIndex = 63;
-            this.textBox4.Text = "0.00";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.BTNBeltStart.Location = new System.Drawing.Point(569, 22);
+            this.BTNBeltStart.Name = "BTNBeltStart";
+            this.BTNBeltStart.Size = new System.Drawing.Size(94, 29);
+            this.BTNBeltStart.TabIndex = 64;
+            this.BTNBeltStart.Text = "開始計算";
+            this.BTNBeltStart.UseVisualStyleBackColor = true;
+            this.BTNBeltStart.Click += new System.EventHandler(this.BTNBeltStart_Click);
             // 
-            // textBox3
+            // TBBeltEffect3
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(577, 191);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(77, 27);
-            this.textBox3.TabIndex = 62;
-            this.textBox3.Text = "0.00";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBBeltEffect3.Enabled = false;
+            this.TBBeltEffect3.Location = new System.Drawing.Point(577, 315);
+            this.TBBeltEffect3.Name = "TBBeltEffect3";
+            this.TBBeltEffect3.Size = new System.Drawing.Size(77, 27);
+            this.TBBeltEffect3.TabIndex = 63;
+            this.TBBeltEffect3.Text = "0.00";
+            this.TBBeltEffect3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox2
+            // TBBeltEffect2
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(577, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(77, 27);
-            this.textBox2.TabIndex = 61;
-            this.textBox2.Text = "0.00";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TBBeltEffect2.Enabled = false;
+            this.TBBeltEffect2.Location = new System.Drawing.Point(577, 191);
+            this.TBBeltEffect2.Name = "TBBeltEffect2";
+            this.TBBeltEffect2.Size = new System.Drawing.Size(77, 27);
+            this.TBBeltEffect2.TabIndex = 62;
+            this.TBBeltEffect2.Text = "0.00";
+            this.TBBeltEffect2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // TBBeltEffect1
+            // 
+            this.TBBeltEffect1.Enabled = false;
+            this.TBBeltEffect1.Location = new System.Drawing.Point(577, 76);
+            this.TBBeltEffect1.Name = "TBBeltEffect1";
+            this.TBBeltEffect1.Size = new System.Drawing.Size(77, 27);
+            this.TBBeltEffect1.TabIndex = 61;
+            this.TBBeltEffect1.Text = "0.00";
+            this.TBBeltEffect1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label37
             // 
@@ -1326,11 +1338,6 @@
             this.numBeltLimit3.TabIndex = 45;
             this.numBeltLimit3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numBeltLimit3.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
-            this.numBeltLimit3.Value = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
             this.numBeltLimit3.ValueChanged += new System.EventHandler(this.numBeltLimit3_ValueChanged);
             // 
             // label28
@@ -2087,9 +2094,9 @@
         private Button button2;
         private Button button1;
         private TextBox TBSPScore2;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
+        private TextBox TBBeltEffect3;
+        private TextBox TBBeltEffect2;
+        private TextBox TBBeltEffect1;
         private Label label37;
         private Label label36;
         private Label label41;
@@ -2122,5 +2129,6 @@
         private Label label47;
         private TextBox textBox9;
         private Button BTNStart;
+        private Button BTNBeltStart;
     }
 }

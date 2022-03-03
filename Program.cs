@@ -21,13 +21,13 @@ namespace LLAS_SPscore2
         public static double[] friendTechniqueUp = new double[3]; //好友技巧效果
 
         public static double[] beltLimit = { 5, 5, 0 }; // 飾品:腰帶突破數
-        public static double[] beltSkillLevel = new double[3]; // 飾品:腰帶技能等級
+        public static double[] beltSkillLevel = { 20, 20, 0 }; // 飾品:腰帶技能等級
 
         public static double[] beltTechnique = {20000,20000,20000,
                 20000,20000,20000,
                 20000,20000,20000 }; // 穿著腰帶角色的技巧
         public static double[] beltSameType = new double[9]; // 穿著腰帶角色的同屬性效果
-
+        public static double[] SPBeltEffect = new double[3];
         public static double Str2double(string str) // string轉double
         {
             double ans = 0;
